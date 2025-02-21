@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <HeroSection
         title="From Ghana to America"
-        subtitle="A personal journey of discovery, growth, and new beginnings"
+        subtitle="A journey of discovery, growth, and new beginnings"
       />
 
       <motion.section 
