@@ -16,32 +16,34 @@ export default function Home() {
         className="max-w-4xl mx-auto mt-24 space-y-12"
       >
         <div className="prose prose-lg">
-          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">The Beginning</h2>
+          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">Basketball Dreams</h2>
           <p>
-            Growing up in Ghana, I was surrounded by rich culture, vibrant traditions, and the warmth of community. 
-            The journey from my hometown to America was more than just a physical transition - it was the beginning 
-            of a new chapter filled with opportunities and challenges.
+            Basketball has always been more than just a sport to me - it's been my pathway to dreams. 
+            Growing up in Ghana, I developed a deep passion for the game, which eventually opened doors 
+            to opportunities in America. The court became my second home, where determination and dedication 
+            shaped my journey.
           </p>
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1504214002698-8bdd458f134b"
-          alt="Ghana cultural scene"
+          src="https://images.unsplash.com/photo-1546519638-68e109498ffc"
+          alt="Basketball court"
           className="w-full h-96 object-cover rounded-lg"
         />
 
         <div className="prose prose-lg">
-          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">New Horizons</h2>
+          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">The American Dream</h2>
           <p>
-            Arriving in America opened up a world of possibilities. The contrast between life in Ghana and 
-            the United States brought both excitement and adjustment. Each day brought new experiences, 
-            from navigating city life to embracing different cultural perspectives.
+            Coming to America to pursue basketball has been transformative. Here, I've found world-class 
+            training facilities, competitive leagues, and a community that shares my passion for the game. 
+            Every practice, every game is a step forward in my basketball journey, blending my Ghanaian 
+            roots with American basketball culture.
           </p>
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df"
-          alt="American city scene"
+          src="https://images.unsplash.com/photo-1608245449230-4ac19066d2d0"
+          alt="Basketball action"
           className="w-full h-96 object-cover rounded-lg"
         />
       </motion.section>
