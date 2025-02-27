@@ -71,8 +71,8 @@ export default function Home() {
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1546519638-68e109498ffc"
-          alt="Basketball court"
+          src="https://images.unsplash.com/photo-1518407613690-d9fc990e795f"
+          alt="Basketball courts in Ghana"
           className="w-full h-96 object-cover rounded-lg"
         />
 

@@ -30,6 +30,22 @@ export const photos = [
     caption: "Traditional architecture",
     category: "ghana",
   },
+  // Ghana basketball photos
+  {
+    url: "https://images.unsplash.com/photo-1587614381634-068e3a5f4b0b",
+    caption: "Street basketball in Ghana",
+    category: "ghana",
+  },
+  {
+    url: "https://images.unsplash.com/photo-1518407613690-d9fc990e795f",
+    caption: "Basketball courts in Accra",
+    category: "ghana",
+  },
+  {
+    url: "https://images.unsplash.com/photo-1519861531473-9200262188bf",
+    caption: "Youth basketball program in Ghana",
+    category: "ghana",
+  },
 
   // America photos
   {
