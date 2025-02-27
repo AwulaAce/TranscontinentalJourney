@@ -3,17 +3,19 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div>
-      <HeroSection
-        title="From Ghana to America"
-        subtitle="A journey of discovery, growth, and new beginnings"
-      />
+    <div className="relative">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1582390607375-38e025266a72')] bg-repeat opacity-10 pointer-events-none"></div>
+      <div className="relative z-10">
+        <HeroSection
+          title="From Ghana to America"
+          subtitle="A journey of discovery, growth, and new beginnings"
+        />
 
       <motion.section 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
-        className="max-w-4xl mx-auto mt-24 space-y-12"
+        className="max-w-4xl mx-auto mt-24 space-y-12 relative z-10"
       >
         <div className="prose prose-lg">
           <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">The Beginning</h2>
@@ -77,6 +79,7 @@ export default function Home() {
           className="w-full h-96 object-cover rounded-lg"
         />
       </motion.section>
+      </div>
     </div>
   );
 }
