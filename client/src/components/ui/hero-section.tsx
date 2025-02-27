@@ -16,10 +16,10 @@ export default function HeroSection({ title, subtitle }: HeroSectionProps) {
         transition={{ duration: 0.8 }}
         className="relative z-10 max-w-3xl mx-auto px-4"
       >
-        <h1 className="text-5xl md:text-6xl font-['Lora'] font-bold mb-6 text-[#1B4965]">
+        <h1 className="text-5xl md:text-6xl font-['Lora'] font-bold mb-6 text-[#FFFFFF]">
           {title}
         </h1>
-        <p className="text-xl md:text-2xl text-[#2D3436] leading-relaxed">
+        <p className="text-xl md:text-2xl text-[#E0E0E0] leading-relaxed">
           {subtitle}
         </p>
       </motion.div>
