@@ -7,10 +7,10 @@ export default function Home() {
       <div 
         className="absolute inset-0 pointer-events-none" 
         style={{
-          backgroundImage: "url('https://i.imgur.com/NFsPihe.png')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1624641358590-de86aabd5a7c')",
           backgroundRepeat: "repeat",
-          backgroundSize: "200px",
-          opacity: 0.35
+          backgroundSize: "400px",
+          opacity: 0.4
         }}
       ></div>
       <div className="relative z-10">
