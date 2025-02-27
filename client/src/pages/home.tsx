@@ -71,8 +71,8 @@ export default function Home() {
         </div>
 
         <img
-          src="https://images.pexels.com/photos/459466/pexels-photo-459466.jpeg"
-          alt="Basketball practice"
+          src="https://images.pexels.com/photos/2834917/pexels-photo-2834917.jpeg"
+          alt="Spintex Knights basketball training in Ghana"
           className="w-full h-96 object-cover rounded-lg"
         />
 
@@ -87,8 +87,8 @@ export default function Home() {
         </div>
 
         <img
-          src="https://images.pexels.com/photos/163064/basketball-ball-sport-competition-163064.jpeg"
-          alt="Basketball game"
+          src="https://images.pexels.com/photos/2820902/pexels-photo-2820902.jpeg"
+          alt="Spintex Knights basketball competition"
           className="w-full h-96 object-cover rounded-lg"
         />
       </motion.section>
