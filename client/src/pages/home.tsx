@@ -4,7 +4,15 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="relative">
-      <div className="absolute inset-0 bg-[#f5f5f5] bg-[radial-gradient(#1B4965_2px,transparent_2px),radial-gradient(#1B4965_2px,transparent_2px)] bg-[length:40px_40px] bg-[position:0_0,20px_20px] opacity-10 pointer-events-none"></div>
+      <div 
+        className="absolute inset-0 opacity-15 pointer-events-none" 
+        style={{
+          backgroundImage: "url('https://i.imgur.com/NFsPihe.png')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "200px",
+          opacity: 0.15
+        }}
+      ></div>
       <div className="relative z-10">
         <HeroSection
           title="From Ghana to America"
