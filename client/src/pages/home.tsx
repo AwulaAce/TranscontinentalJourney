@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative bg-gray-900">
       <div className="relative z-10">
         <HeroSection
           title="From Ghana to America"
