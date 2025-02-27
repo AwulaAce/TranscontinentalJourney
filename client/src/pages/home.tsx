@@ -4,6 +4,20 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="relative bg-gray-900 text-gray-50">
+      {/* Ghana flag - red, gold/yellow, green with black star */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-red-600 h-1/3 top-0"></div>
+        <div className="absolute inset-0 bg-yellow-400 h-1/3 top-1/3">
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" 
+                    fill="black" />
+            </svg>
+          </div>
+        </div>
+        <div className="absolute inset-0 bg-green-700 h-1/3 top-2/3"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
+      </div>
       <div className="relative z-10">
         <HeroSection
           title="From Ghana to America"
