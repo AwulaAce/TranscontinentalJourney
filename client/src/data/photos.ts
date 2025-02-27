@@ -32,18 +32,18 @@ export const photos = [
   },
   // Ghana basketball photos - Spintex Knights
   {
-    url: "https://i.imgur.com/jK9dciZ.jpg",
-    caption: "Spintex Knights team practice",
+    url: "https://images.pexels.com/photos/3755440/pexels-photo-3755440.jpeg",
+    caption: "Basketball practice in Ghana",
     category: "ghana",
   },
   {
-    url: "https://i.imgur.com/nzfPxDL.jpg",
-    caption: "Spintex Knights game action",
+    url: "https://images.pexels.com/photos/2834917/pexels-photo-2834917.jpeg",
+    caption: "Ghana basketball tournament",
     category: "ghana",
   },
   {
-    url: "https://i.imgur.com/Qw1zGpm.jpg",
-    caption: "Spintex Knights community program",
+    url: "https://images.pexels.com/photos/3755442/pexels-photo-3755442.jpeg",
+    caption: "Youth basketball program in Ghana",
     category: "ghana",
   },
 

@@ -71,8 +71,8 @@ export default function Home() {
         </div>
 
         <img
-          src="https://i.imgur.com/jK9dciZ.jpg"
-          alt="Spintex Knights basketball team in Ghana"
+          src="https://images.pexels.com/photos/3755440/pexels-photo-3755440.jpeg"
+          alt="Basketball practice in Ghana"
           className="w-full h-96 object-cover rounded-lg"
         />
 
@@ -87,8 +87,8 @@ export default function Home() {
         </div>
 
         <img
-          src="https://i.imgur.com/nzfPxDL.jpg"
-          alt="Spintex Knights basketball action"
+          src="https://images.pexels.com/photos/2834917/pexels-photo-2834917.jpeg"
+          alt="Ghana basketball tournament"
           className="w-full h-96 object-cover rounded-lg"
         />
       </motion.section>
