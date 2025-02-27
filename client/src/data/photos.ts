@@ -30,20 +30,20 @@ export const photos = [
     caption: "Traditional architecture",
     category: "ghana",
   },
-  // Ghana basketball photos
+  // Ghana basketball photos - Spintex Knights
   {
-    url: "https://images.unsplash.com/photo-1587614381634-068e3a5f4b0b",
-    caption: "Street basketball in Ghana",
+    url: "https://i.imgur.com/jK9dciZ.jpg",
+    caption: "Spintex Knights team practice",
     category: "ghana",
   },
   {
-    url: "https://images.unsplash.com/photo-1518407613690-d9fc990e795f",
-    caption: "Basketball courts in Accra",
+    url: "https://i.imgur.com/nzfPxDL.jpg",
+    caption: "Spintex Knights game action",
     category: "ghana",
   },
   {
-    url: "https://images.unsplash.com/photo-1519861531473-9200262188bf",
-    caption: "Youth basketball program in Ghana",
+    url: "https://i.imgur.com/Qw1zGpm.jpg",
+    caption: "Spintex Knights community program",
     category: "ghana",
   },
 
