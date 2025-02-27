@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="relative">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1582390607375-38e025266a72')] bg-repeat opacity-10 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[url('https://i.imgur.com/QHG62Sr.png')] bg-repeat opacity-20 pointer-events-none"></div>
       <div className="relative z-10">
         <HeroSection
           title="From Ghana to America"
