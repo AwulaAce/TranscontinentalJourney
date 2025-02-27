@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div className="relative">
       <div 
-        className="absolute inset-0 opacity-15 pointer-events-none" 
+        className="absolute inset-0 pointer-events-none" 
         style={{
           backgroundImage: "url('https://i.imgur.com/NFsPihe.png')",
           backgroundRepeat: "repeat",
           backgroundSize: "200px",
-          opacity: 0.15
+          opacity: 0.35
         }}
       ></div>
       <div className="relative z-10">
