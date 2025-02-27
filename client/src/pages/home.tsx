@@ -4,17 +4,6 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="relative">
-      <div 
-        className="absolute inset-0 pointer-events-none" 
-        style={{
-          backgroundImage: "url('https://i.imgur.com/DJpToF2.jpg')",
-          backgroundRepeat: "repeat",
-          backgroundSize: "400px",
-          backgroundColor: "#121212",
-          backgroundBlendMode: "soft-light",
-          opacity: 0.5
-        }}
-      ></div>
       <div className="relative z-10">
         <HeroSection
           title="From Ghana to America"
