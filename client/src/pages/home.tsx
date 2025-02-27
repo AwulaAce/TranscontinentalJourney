@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="relative bg-gray-900">
+    <div className="relative bg-gray-900 text-white">
       <div className="relative z-10">
         <HeroSection
           title="From Ghana to America"
@@ -17,7 +17,7 @@ export default function Home() {
         className="max-w-4xl mx-auto mt-24 space-y-12 relative z-10"
       >
         <div className="prose prose-lg">
-          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">The Beginning</h2>
+          <h2 className="text-3xl font-['Lora'] text-[#62E8FF] mb-6">The Beginning</h2>
           <p>
             Growing up in Ghana, I was surrounded by rich culture, vibrant traditions, and the warmth of community. 
             The journey from my hometown to America was more than just a physical transition - it was the beginning 
@@ -32,7 +32,7 @@ export default function Home() {
         />
 
         <div className="prose prose-lg">
-          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">New Horizons</h2>
+          <h2 className="text-3xl font-['Lora'] text-[#62E8FF] mb-6">New Horizons</h2>
           <p>
             Arriving in America opened up a world of possibilities. The contrast between life in Ghana and 
             the United States brought both excitement and adjustment. Each day brought new experiences, 
@@ -47,7 +47,7 @@ export default function Home() {
         />
 
         <div className="prose prose-lg">
-          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">Basketball Dreams</h2>
+          <h2 className="text-3xl font-['Lora'] text-[#62E8FF] mb-6">Basketball Dreams</h2>
           <p>
             Basketball has always been more than just a sport to me - it's been my pathway to dreams. 
             Growing up in Ghana, I developed a deep passion for the game, which eventually opened doors 
@@ -63,7 +63,7 @@ export default function Home() {
         />
 
         <div className="prose prose-lg">
-          <h2 className="text-3xl font-['Lora'] text-[#1B4965] mb-6">The American Dream</h2>
+          <h2 className="text-3xl font-['Lora'] text-[#62E8FF] mb-6">The American Dream</h2>
           <p>
             Coming to America to pursue basketball has been transformative. Here, I've found world-class 
             training facilities, competitive leagues, and a community that shares my passion for the game. 
