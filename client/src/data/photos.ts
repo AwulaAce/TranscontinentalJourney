@@ -1,7 +1,16 @@
+
 export const photos = [
+
+  {
+    url: "https://youtu.be/wjiUzG9vKZI?si=nUM1JlwKn3Y0Bl-Y",
+    caption: "Watch this amazing video!",
+    category: "youtube", // Optional category
+    type: "video", // Add a type to differentiate videos from images
+  },
+  
   // Ghana photos
   {
-    url: "https://images.unsplash.com/photo-1504214002698-8bdd458f134b",
+    url: "https://touringghana.com/wp-content/uploads/2016/02/f1.jpg",
     caption: "Traditional celebration in Ghana",
     category: "ghana",
   },
@@ -11,17 +20,17 @@ export const photos = [
     category: "ghana",
   },
   {
-    url: "https://images.unsplash.com/photo-1712700004723-4adc42a3532f",
+    url: "https://c8.alamy.com/comp/JAFEPX/makola-market-and-street-scene-downtown-accra-ghana-JAFEPX.jpg",
     caption: "Ghana marketplace",
     category: "ghana",
   },
   {
-    url: "https://images.unsplash.com/photo-1625191824427-fe884c7ab3cd",
+    url: "https://www.viceversaglobal.com/wp-content/uploads/2024/03/pinterest.jpg",
     caption: "Cultural heritage",
     category: "ghana",
   },
   {
-    url: "https://images.unsplash.com/photo-1735295442957-60baff5c65b2",
+    url: "https://mediaim.expedia.com/destination/1/be0ad25550296ffd601bb7d3dd6e3807.jpg",
     caption: "Local community",
     category: "ghana",
   },
@@ -32,12 +41,12 @@ export const photos = [
   },
   // Ghana basketball photos - Spintex Knights
   {
-    url: "https://images.pexels.com/photos/2834917/pexels-photo-2834917.jpeg",
+    url: "https://www.graphic.com.gh/images/2023/mar/27/knights23.jpg",
     caption: "Spintex Knights basketball team training",
     category: "ghana",
   },
   {
-    url: "https://images.pexels.com/photos/2820902/pexels-photo-2820902.jpeg",
+    url: "https://citisportsonline.com/wp-content/uploads/2024/10/Knights-1.jpg",
     caption: "Spintex Knights in competition",
     category: "ghana",
   },
